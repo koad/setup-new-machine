@@ -2,7 +2,7 @@
 
 # Machine setup script for koad's personal environment
 # Run directly: bash command.sh
-# Run from internet: curl -sSL https://raw.githubusercontent.com/koad/new-machine-setup/main/command.sh | bash -s
+# Run from internet: curl -sSL https://raw.githubusercontent.com/koad/setup-new-machine/refs/heads/main/command.sh | bash -e
 
 # Color definitions
 RED='\033[0;31m'
