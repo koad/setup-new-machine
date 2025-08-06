@@ -2,7 +2,7 @@
 
 # Machine setup script for koad's personal environment
 # Run directly: bash command.sh
-# Run from internet: curl -sSL https://raw.githubusercontent.com/koad/setup-new-machine/refs/heads/main/command.sh | bash
+# Run from internet: curl -sSL https://raw.githubusercontent.com/koad/new-machine-setup/main/command.sh | bash -s
 
 # Color definitions
 RED='\033[0;31m'
@@ -132,6 +132,5 @@ setup_new_machine() {
     echo -e "${YELLOW}➤ Setup log: ${LOG_FILE}${NC}"
 }
 
-if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
-    setup_new_machine "$@"
-fi
+# Execute the function - will run regardless of how the script is invoked
+setup_new_machine "$@"
