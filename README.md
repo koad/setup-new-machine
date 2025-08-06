@@ -13,7 +13,7 @@ Don't copy this shit bit for bit, use it as an example and build your own prefer
 Run this right from bash using curl:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/koad/new-machine-setup/main/command.sh | bash
+curl -sSL https://raw.githubusercontent.com/koad/setup-new-machine/refs/heads/main/command.sh | bash
 ```
 
 ## 📋 What It Does
